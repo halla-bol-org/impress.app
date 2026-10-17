@@ -1,9 +1,25 @@
 import { Link } from "react-router";
 import { EmailLink, LegalLayout, Placeholder, type LegalSection } from "./LegalLayout";
-import { company } from "@/config";
+import { app, company } from "@/config";
 
 const CompanyName = () => <Placeholder>{company.legalName}</Placeholder>;
 const PrivacyEmail = () => <EmailLink address={company.privacyEmail} />;
+const Phone = () => <a href={`tel:${company.phone.replace(/\s/g, "")}`}>{company.phone}</a>;
+
+/** Developer contact block, as required on the app-store listing. */
+function DeveloperContact() {
+  return (
+    <p>
+      <strong>{company.legalName.toUpperCase()}</strong>
+      <br />
+      Email: <PrivacyEmail />
+      <br />
+      Address: {company.developerAddress}
+      <br />
+      Phone: <Phone />
+    </p>
+  );
+}
 
 const sections: LegalSection[] = [
   {
@@ -18,8 +34,8 @@ const sections: LegalSection[] = [
           consent to be governed by this Policy.
         </p>
         <p>
-          In this Policy, “<strong>Impress App</strong>” means the Company’s proprietary self-improvement and learning platform
-          called ‘Impress’ (including the mobile application, website or any other format in which it is made available), which
+          In this Policy, “<strong>Impress App</strong>” means {app.name} (“Impress”), the Company’s proprietary short-video
+          self-improvement and learning platform (package name <code>{app.packageName}</code>, including the mobile application, website or any other format in which it is made available), which
           enables users to learn and build skills such as communication, confidence, personality, dating and relationship skills,
           grooming and fitness through video lessons, audio, courses, exercises and other learning content.
         </p>
@@ -289,13 +305,11 @@ const sections: LegalSection[] = [
           <PrivacyEmail />.
         </p>
         <p>
-          <strong>
-            <CompanyName />
-          </strong>
-          <br />
-          <Placeholder>{company.address}</Placeholder>
-          <br />
-          Email: <PrivacyEmail />
+          <strong>Developer contact information</strong>
+        </p>
+        <DeveloperContact />
+        <p>
+          Registered office: <Placeholder>{company.address}</Placeholder>
         </p>
       </>
     ),
@@ -307,8 +321,28 @@ export function PrivacyPolicy() {
     <LegalLayout
       title="Privacy Policy"
       metaDescription="How Impress collects, uses and protects your information."
-      lastUpdated="6 October 2026"
-      intro={<p>Your privacy matters to us. This Policy explains what information we collect, why, and the choices you have.</p>}
+      lastUpdated="17 October 2026"
+      intro={
+        <>
+          <dl className="grid gap-x-6 gap-y-2 rounded-3xl bg-lavender/80 p-5 text-base ring-1 ring-line sm:grid-cols-[auto_1fr] sm:p-6">
+            {[
+              ["App name", app.name],
+              ["Package name", <code key="pkg">{app.packageName}</code>],
+              ["Developer / legal entity", company.legalName.toUpperCase()],
+              ["Developer contact email", <PrivacyEmail key="email" />],
+              ["Developer address", company.developerAddress],
+              ["Contact number", <Phone key="phone" />],
+              ["Privacy Policy URL", <a key="url" href={app.privacyPolicyUrl} className="break-all">{app.privacyPolicyUrl}</a>],
+            ].map(([label, value]) => (
+              <div key={String(label)} className="contents">
+                <dt className="font-semibold text-navy">{label}</dt>
+                <dd className="text-ink [&_a]:text-magenta [&_a]:underline [&_a]:underline-offset-2">{value}</dd>
+              </div>
+            ))}
+          </dl>
+          <p className="mt-8">Your privacy matters to us. This Policy explains what information we collect, why, and the choices you have.</p>
+        </>
+      }
       sections={sections}
     />
   );
