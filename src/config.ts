@@ -33,7 +33,7 @@ export const company = {
   dataProtectionOfficer: "Harsh Chhabra",
   /** Developer contact shown on the app-store listing and in the Privacy Policy. */
   developerAddress: "LG-007-02, LG Floor, MGF Metropolis Mall, MG Road, DLF QE, Gurugram, Haryana 122002, India",
-  phone: "+91 99998 10406",
+  phone: "+91 88710 75757",
   grievanceOfficer: "[Grievance Officer Name]",
 } as const;
 
@@ -41,7 +41,6 @@ export const company = {
 export const app = {
   name: "Impress Girls: Meet Talk Date",
   packageName: "impress.app.short.skill.learning",
-  privacyPolicyUrl: "https://halla-bol-org.github.io/impress.app/privacy-policy",
 } as const;
 
 /** True for values still written as a [placeholder]. */
