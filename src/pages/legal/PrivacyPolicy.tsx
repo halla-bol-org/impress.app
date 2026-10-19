@@ -30,22 +30,22 @@ const sections: LegalSection[] = [
         <p>
           <CompanyName /> (“<strong>we</strong>”, “<strong>our</strong>”, “<strong>us</strong>”) respects your privacy and is
           committed to protecting it. Please read this privacy policy (“<strong>Policy</strong>”) carefully to understand our
-          practices regarding your personal information. By installing, accessing or using the Impress App, you give your express
+          practices regarding your personal information. By installing, accessing or using the Impress Girls: Meet Talk Date, you give your express
           consent to be governed by this Policy.
         </p>
         <p>
-          In this Policy, “<strong>Impress App</strong>” means {app.name} (“Impress”), the Company’s proprietary short-video
+          In this Policy, “<strong>{app.name}</strong>” means the Company’s proprietary short-video
           self-improvement and learning platform (package name <code>{app.packageName}</code>, including the mobile application, website or any other format in which it is made available), which
           enables users to learn and build skills such as communication, confidence, personality, dating and relationship skills,
           grooming and fitness through video lessons, audio, courses, exercises and other learning content.
         </p>
         <p>
           This Policy sets out, among other things: (i) the types of personal information we collect when you install and use the
-          Impress App; (ii) how we use that information; (iii) the purposes for which we collect it; and (iv) how we disclose it.
+          Impress Girls: Meet Talk Date; (ii) how we use that information; (iii) the purposes for which we collect it; and (iv) how we disclose it.
         </p>
         <p>
-          If you do not agree with this Policy, you must immediately stop accessing the Impress App. Your continued access to the
-          Impress App indicates your acceptance of this Policy. This Policy forms part of our{" "}
+          If you do not agree with this Policy, you must immediately stop accessing the Impress Girls: Meet Talk Date. Your continued access to the
+          Impress Girls: Meet Talk Date indicates your acceptance of this Policy. This Policy forms part of our{" "}
           <Link to="/terms-and-conditions">Terms &amp; Conditions</Link>.
         </p>
       </>
@@ -56,9 +56,9 @@ const sections: LegalSection[] = [
     title: "Scope of this Policy",
     content: (
       <p>
-        This Policy applies only to information we obtain from you through the Impress App. It does not apply to information we
+        This Policy applies only to information we obtain from you through the Impress Girls: Meet Talk Date. It does not apply to information we
         may obtain from other sources that share your information under their own privacy policies, to other websites or landing
-        pages you may reach through the Impress App, to your direct interactions with any third party (including other users,
+        pages you may reach through the Impress Girls: Meet Talk Date, to your direct interactions with any third party (including other users,
         experts or partners), or to information you provide to, or that is collected by, any third party. We encourage you to
         read the privacy policies of any third parties you interact with.
       </p>
@@ -70,14 +70,14 @@ const sections: LegalSection[] = [
     content: (
       <>
         <p>
-          When you install, launch or use the Impress App, we will ask for certain information to create your account, such as
+          When you install, launch or use the Impress Girls: Meet Talk Date, we will ask for certain information to create your account, such as
           your name, phone number, email address, gender, age, profile picture and location (city or state). We also ask you to
           choose the topics you want to improve, such as dating skills, conversation skills, personality, confidence, grooming or
           fitness, so that we can personalise your feed.
         </p>
         <p>
           You may choose not to provide some of this information, although some features may then not work as intended. You can
-          share your location either by allowing the Impress App to detect it or by entering your city or state manually.
+          share your location either by allowing the Impress Girls: Meet Talk Date to detect it or by entering your city or state manually.
         </p>
         <p>
           If you use community features, contact us, take part in a challenge or contest, or make a purchase, we also collect the
@@ -92,10 +92,10 @@ const sections: LegalSection[] = [
     title: "Information We Collect Automatically",
     content: (
       <>
-        <p>When you use the Impress App, we may collect:</p>
+        <p>When you use the Impress Girls: Meet Talk Date, we may collect:</p>
         <ul>
           <li>
-            details of your access to and use of the Impress App, including interaction data, access and usage logs, performance
+            details of your access to and use of the Impress Girls: Meet Talk Date, including interaction data, access and usage logs, performance
             data, and the lessons, videos and other content you view, watch or interact with, and your learning progress;
           </li>
           <li>
@@ -114,10 +114,10 @@ const sections: LegalSection[] = [
         <p>
           We may use cookies or pixels (including mobile cookies and pixels). A cookie is a small file placed on your device. You
           may be able to refuse or accept cookies through the settings on your device or browser; if you refuse them, you may be
-          unable to access certain features of the Impress App.
+          unable to access certain features of the Impress Girls: Meet Talk Date.
         </p>
         <p>
-          Pages of the Impress App may also contain small files known as beacons (also called clear gifs, pixel tags or
+          Pages of the Impress Girls: Meet Talk Date may also contain small files known as beacons (also called clear gifs, pixel tags or
           single-pixel gifs) that help us improve our services — for example, by recording the popularity of certain content and
           verifying system and server integrity.
         </p>
@@ -131,9 +131,9 @@ const sections: LegalSection[] = [
       <>
         <p>We (and our partners) may use the information we collect about you, or that you provide, to:</p>
         <ul>
-          <li>provide you with the Impress App, its features and its content, including lessons, videos, audio and offers;</li>
-          <li>personalise your feed and recommendations based on the topics you choose and how you use the Impress App;</li>
-          <li>notify you about relevant updates or upgrades to the Impress App;</li>
+          <li>provide you with the Impress Girls: Meet Talk Date, its features and its content, including lessons, videos, audio and offers;</li>
+          <li>personalise your feed and recommendations based on the topics you choose and how you use the Impress Girls: Meet Talk Date;</li>
+          <li>notify you about relevant updates or upgrades to the Impress Girls: Meet Talk Date;</li>
           <li>estimate our audience size and usage patterns, and optimise your searches;</li>
           <li>
             enrich data and build custom audience segments or merged data sets (using the data described in this Policy and/or
@@ -183,7 +183,7 @@ const sections: LegalSection[] = [
     content: (
       <>
         <p>
-          We aim to give you choices about the information you provide to us. You may stop using or uninstall the Impress App at
+          We aim to give you choices about the information you provide to us. You may stop using or uninstall the Impress Girls: Meet Talk Date at
           any time.
         </p>
         <ul>
@@ -192,12 +192,12 @@ const sections: LegalSection[] = [
             email address, by selecting ‘Skip’ when asked for it.
           </li>
           <li>
-            <strong>Location:</strong> you can choose whether to let the Impress App detect your location, or enter your city or
+            <strong>Location:</strong> you can choose whether to let the Impress Girls: Meet Talk Date detect your location, or enter your city or
             state manually instead.
           </li>
           <li>
             <strong>Tracking technologies:</strong> you can set your browser or device to refuse all or some cookies, to alert you
-            when cookies are being sent, or to disable certain features. If you do, some parts of the Impress App may not be
+            when cookies are being sent, or to disable certain features. If you do, some parts of the Impress Girls: Meet Talk Date may not be
             accessible or may not work properly.
           </li>
           <li>
@@ -206,7 +206,7 @@ const sections: LegalSection[] = [
           </li>
         </ul>
         <p>
-          The submission of your information to the Impress App and your acceptance of this Policy will override any registration
+          The submission of your information to the Impress Girls: Meet Talk Date and your acceptance of this Policy will override any registration
           of your mobile number with the National Do Not Call Registry of the Telecom Regulatory Authority of India, or any other
           Do Not Call registry, for communications from us.
         </p>
@@ -235,7 +235,7 @@ const sections: LegalSection[] = [
     title: "Data Retention",
     content: (
       <p>
-        We retain your information for as long as necessary to continue providing you with access to the Impress App, and as
+        We retain your information for as long as necessary to continue providing you with access to the Impress Girls: Meet Talk Date, and as
         otherwise required by law or applicable contract. After the applicable retention period, we may retain and use data in an
         aggregated form as necessary for internal analysis, to comply with our legal obligations, to resolve disputes and to
         enforce our agreements.
@@ -247,8 +247,8 @@ const sections: LegalSection[] = [
     title: "Children's Privacy",
     content: (
       <p>
-        The Impress App is not intended for people under 16 years of age, and we do not knowingly collect personal information
-        from them. Users aged 16 or 17 may use the Impress App only with the involvement and consent of a parent or legal guardian,
+        The Impress Girls: Meet Talk Date is not intended for people under 16 years of age, and we do not knowingly collect personal information
+        from them. Users aged 16 or 17 may use the Impress Girls: Meet Talk Date only with the involvement and consent of a parent or legal guardian,
         as set out in our <Link to="/terms-and-conditions/eligibility">Terms &amp; Conditions</Link>. If you believe a child under
         16 has provided us with personal information, please contact us at <PrivacyEmail /> and we will take appropriate steps to
         delete it.
@@ -261,13 +261,12 @@ const sections: LegalSection[] = [
     content: (
       <>
         <p>
-          Where the Impress App offers community features, anything you post — such as comments, questions, reviews or practice
+          Where the Impress Girls: Meet Talk Date offers community features, anything you post — such as comments, questions, reviews or practice
           submissions — is shown to other users together with your name and profile picture (if you have added one), and is
           collected and stored by us. You own the content you post; please think carefully before sharing personal details in it.
         </p>
         <p>
-          We are not liable for any harm or damage caused by information that users choose to share publicly within the Impress
-          App.
+          We are not liable for any harm or damage caused by information that users choose to share publicly within the Impress Girls: Meet Talk Date.
         </p>
       </>
     ),
@@ -289,7 +288,7 @@ const sections: LegalSection[] = [
     content: (
       <p>
         We may update this Policy from time to time. If we make any material changes, we will notify you through a notice in the
-        Impress App before the change takes effect. The date of the latest revision is shown at the top of this page. Please check
+        Impress Girls: Meet Talk Date before the change takes effect. The date of the latest revision is shown at the top of this page. Please check
         this Policy regularly to make sure you have read the latest version.
       </p>
     ),
@@ -327,12 +326,10 @@ export function PrivacyPolicy() {
           <dl className="grid gap-x-6 gap-y-2 rounded-3xl bg-lavender/80 p-5 text-base ring-1 ring-line sm:grid-cols-[auto_1fr] sm:p-6">
             {[
               ["App name", app.name],
-              ["Package name", <code key="pkg">{app.packageName}</code>],
               ["Developer / legal entity", company.legalName.toUpperCase()],
               ["Developer contact email", <PrivacyEmail key="email" />],
               ["Developer address", company.developerAddress],
               ["Contact number", <Phone key="phone" />],
-              ["Privacy Policy URL", <a key="url" href={app.privacyPolicyUrl} className="break-all">{app.privacyPolicyUrl}</a>],
             ].map(([label, value]) => (
               <div key={String(label)} className="contents">
                 <dt className="font-semibold text-navy">{label}</dt>
